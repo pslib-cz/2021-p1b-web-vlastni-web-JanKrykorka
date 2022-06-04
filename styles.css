@@ -1,0 +1,56 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  li {
+    padding: 0;
+    float: left;
+  }
+  
+  li a {
+    padding: 0;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+.parallax {
+    padding: 0;
+    /* The image used */
+    background-image: url(img/original.jpg);
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.intro{
+    padding: 25%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: whitesmoke;
+   
+
+  }
+
+  p {
+    color: #111;
+    text-align: center;
+
+  }
