@@ -1,39 +1,123 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:black;
-  }
-  
-  li {
-    padding: 0;
-    float: left;
-  }
-  
-  li a {
-    padding: 0;
-    display: block;
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+  width: 100%;
+}
+
+nav{
+  background:  #31051C;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+}
+
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: whitesmoke;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #4A001F;
+  transition: .5s;
+} 
+.checkbtn{
+    font-size: 30px;
     color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #31051C;
+    top: 80px;
+    left: -100%;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    transition: all .5s;
   }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
   }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #4A001F;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
 
 .parallax {
+    text-align: center;
+    justify-content: center;
     padding: 0;
-    /* The image used */
-    background-image: url(img/original.jpg);
-  
-    /* Set a specific height */
-    min-height: 500px;
-  
-    /* Create the parallax scrolling effect */
+    background-image: url(img/original.jpg); 
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-2 {
+    padding: 0;
+    background-image: url(img/c2e.gif); 
+    min-height: 586px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -41,16 +125,22 @@ ul {
   }
 
 .intro{
-    padding: 25%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background-color: whitesmoke;
-   
-
   }
 
   p {
     color: #111;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  h1{
+    font-size: 25px;
+    color: black;
+    background-color: whitesmoke;
     text-align: center;
 
   }
