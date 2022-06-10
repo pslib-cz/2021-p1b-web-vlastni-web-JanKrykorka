@@ -7,7 +7,7 @@ Web může a musí být na libovolné přijatelné téma. Pokud Vás žádné t�
 
 Pro pojmenování tříd je doporučená metodika [BEM](http://getbem.com/introduction/).
 
-Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které body zadání už máte splněné.
+Editací tohoto souboru a náhradou ``[ ]`` za ``[🗸]`` můžete evidovat, které body zadání už máte splněné.
 
 ## Body zadání
 
