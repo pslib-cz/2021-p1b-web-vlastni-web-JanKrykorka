@@ -14,7 +14,7 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[🗸]`` můžete evidovat, kte
 ### HTML, struktura souborů
 
 * [🗸] Web má alespoň dvě stránky provázané společnými styly
-* [ ] HTML kód je validní bez chyb ve [validátoru](https://validator.w3.org/)
+* [🗸]] HTML kód je validní bez chyb ve [validátoru](https://validator.w3.org/)
 * [🗸] HTML značky dávají smysl, kód obsahuje ``<article>``, ``<section>``, ``<header>``, ``<nav>``.
 * [🗸] Navigace mezi stránkami je tvořená přes ``<nav><ul><li><a>`` a je funkční i po zkopírování na lokální disk
 * [🗸] Soubory webu jsou členěny do složek (např. ``/styles``, ``/images``, ``/fonts``)
@@ -22,17 +22,17 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[🗸]`` můžete evidovat, kte
 * [🗸] V repozitáři se soubory ocitly pomocí commitů a pushů a těch je více než 3, rozprostřených do celé doby vypracovávání zadání
 * [🗸] Web je dostupný přes Github Pages (do README.md přidejte odkaz)
 * [🗸] Celková načítaná velikost jednotlivých stránek nepřesahuje jednotky MiB
-* [ ] Stránka obsahuje formátovaný seznam zdrojů textu a obrázků
+* [🗸] Stránka obsahuje formátovaný seznam zdrojů textu a obrázků
 
 ### CSS, vzhled
 
 * [🗸] Stránky používají několik souborů stylů, jeden z nich je [normalize](https://necolas.github.io/normalize.css/)
-* [ ] Ke stránkám jsou připojeny externí fonty (např. přes [Google Fonts](https://fonts.google.com/))
+* [🗸] Ke stránkám jsou připojeny externí fonty (např. přes [Google Fonts](https://fonts.google.com/))
 * [🗸] Stránka obsahuje horizontální nebo vertikální menu s odkazy na celou plochu nabídky
 * [🗸] Vzhled stránek je zamýšlen na mobilní telefon pro rozměr od cca 360px do 960px. Content-wrapper má omezení na ``max-width: 960px; margin: 0 auto;``
 * [🗸] Obrázky mají rozumnou velikost pro mobilní telefon
 * [#4A001F] Velikosti písem jsou odvozeny od kořenového elementu (rem)
-* [ ] Velikosti mezer kolem prvku jsou odvozeny od velikosti písma elementu (procenta nebo vw)
+* [🗸] Velikosti mezer kolem prvku jsou odvozeny od velikosti písma elementu (procenta nebo vw)
 * [🗸] Web používá omezenou paletu barev a mezer (lze zajistit přes [proměnné v CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)) (:root)
 * [🗸] Barevné schéma je vkusné a odpovídá tématu. Inspiraci můžete čerpat z [editoru palet](https://coolors.co/palettes/trending)
 * [🗸] Šířka hlavního bloku stránky je omezená (tedy používá například ``width``, ``margin``, ``max-width``)
@@ -45,7 +45,7 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[🗸]`` můžete evidovat, kte
 ````
 * [🗸] Styly definují vzhled prvků podle typografických zvyklosti (velikosti nadpisů, formát odstavců)
 * [🗸] Odkazy (například menu) využívají efekt ``hover``
-* [ ] Za nebo před odkazy v textu je přidána ikonka (např. šipka) (využití ``::before`` nebo ``::after``)
+* [🗸] Za nebo před odkazy v textu je přidána ikonka (např. šipka) (využití ``::before`` nebo ``::after``)
 
 ### Vyzkoušejte nad rámec probrané látky
 
@@ -63,4 +63,4 @@ Po splnění předchozích bodů
 * [CSS Tricks Guides](https://css-tricks.com/guides/)
 * [Metodika BEM](http://getbem.com/introduction/)
 ## Github Pages link
-* [🗸]https://pslib-cz.github.io/2021-p1b-web-vlastni-web-JanKrykorka/index.html
+* [🗸] https://pslib-cz.github.io/2021-p1b-web-vlastni-web-JanKrykorka/index.html
